@@ -4,6 +4,7 @@
 1.创建一个空项目
 
 2.将一个如下写有经纬度（lat/lon）的GPX文件拖到项目中
+
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <gpx
 xmlns="http://www.topografix.com/GPX/1/1"
