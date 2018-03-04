@@ -1,9 +1,10 @@
-# location
 改变手机定位的当前位置，可以模拟手机打卡
 
 1.创建一个空项目
 
 2.将一个如下写有经纬度（lat/lon）的GPX文件拖到项目中
+
+```xml
 
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <gpx
@@ -16,6 +17,8 @@ creator="gpx-poi.com">
       <time>2017-01-23T07:01:25Z</time>
    </wpt>
 </gpx>
+
+```
 
 3.将次项目跑在真机上，然后选择Debug/Simulate location下，刚才所添加的包含有经纬度的GPX文件
 
